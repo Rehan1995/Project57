@@ -25,15 +25,16 @@ funtionTwo()
 
 
 class pyClassOne:
-    def __init__(self,name,age,phoneNumber):
+    def __init__(self,name,age,phoneNumber,gender):
         self.myName = name
         self.myAge = age
         self.myPhoneNumber = phoneNumber
+        self.myGender = gender
         print("my name is :"+ self.myName)
         print("my age  is :"+ self.myAge)
         print("my phoneNumber is :"+ self.myPhoneNumber)
+        print("gender :"+ self.myGender)
 
-
-ClassOneObject = pyClassOne("rehan",22,716)
+ClassOneObject = pyClassOne("rehan",22,716,"male")
 
 print(ClassOneObject)
