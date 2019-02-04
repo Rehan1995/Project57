@@ -1,4 +1,4 @@
-My_list = list(range(1,10))
+my_list = list(range(1,50))
 
 def funtionOne(listValue):
     total = 0
@@ -10,12 +10,12 @@ def funtionOne(listValue):
     print(total)
 
 
-funtionOne(My_list)
+funtionOne(my_list)
 
 def funtionTwo():
     total_Value =0
     position_Value =0
-    Number_List = [1,2,3,-5,-3,-4,-10]
+    Number_List = [1,2,3,-5,-3,-4,-10,20,0,49]
     while position_Value < len(Number_List) and Number_List[position_Value]<-10:
         total_Value += Number_List[position_Value]
         position_Value +=1
